@@ -21,12 +21,13 @@
 - En créer un plugin Vue.js
 - Trouver un moyen de générer les modèles FLASK automatiquement
 
-![GitHub Logo](/images/logo.png)
+
+
+## In fine ça ressemble à ça :
+![GitHub Logo](/admin/static/capture_1.png)
 Format: ![Alt Text](url)
 
 ![GitHub Logo](/admin/static/capture_1.png)
-Format: ![Alt Text](url)
-![GitHub Logo](/images/logo.png)
 Format: ![Alt Text](url)
 
 ## Pour le faire marcher
