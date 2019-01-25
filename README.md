@@ -1,7 +1,7 @@
 # 🐉 CRUD Dynamique (presque)
 
 
-** ⚠ Quelques trucs à savoir** :
+ ⚠ **Quelques trucs à savoir** :
 - Il s'agit d'un code **NON** correctement refactoré.
 - Le back agit comme un GraphQL qui met à disposition des API en fonction de la DB (il faut quand même set les models flask)
 - Le front va chercher la structure de la DB, puis affiche un crud en fonction
