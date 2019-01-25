@@ -24,11 +24,9 @@
 
 
 ## In fine ça ressemble à ça :
-![GitHub Logo](/admin/static/capture_1.png)
-Format: ![Alt Text](url)
+![Capture 1](/admin/static/capture_1.png)
 
-![GitHub Logo](/admin/static/capture_1.png)
-Format: ![Alt Text](url)
+![Capture 2](/admin/static/capture_2.png)
 
 ## Pour le faire marcher
 - **Variables d'environnement à set**
