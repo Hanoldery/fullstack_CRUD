@@ -1,4 +1,4 @@
-# CRUD Dynamique (presque)
+# 🐉 CRUD Dynamique (presque)
 
 
 ** ⚠ Quelques trucs à savoir** :
