@@ -1,0 +1,42 @@
+{
+  "name": "zimmer",
+  "version": "1.0.0",
+  "description": "Hans Zimmer Official Website",
+  "author": "Hanoldery <gerbaudp@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt"
+  },
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "3000"
+    }
+  },
+  "dependencies": {
+    "@mdi/font": "^3.3.92",
+    "@nuxtjs/axios": "^5.3.1",
+    "@nuxtjs/proxy": "^1.2.4",
+    "@nuxtjs/vuetify": "^0.5.1",
+    "howler": "^2.0.15",
+    "lodash": "^4.17.11",
+    "node-sass": "^4.9.3",
+    "nuxt": "^2.3.4",
+    "sass-loader": "^7.1.0",
+    "sockjs": "^0.3.19",
+    "v-calendar": "^0.9.7",
+    "vee-validate": "^2.1.0-beta.9",
+    "vue-instantsearch": "^1.7.0",
+    "vue-no-ssr": "^1.0.0",
+    "vuetify": "^1.2.4",
+    "vuex": "^3.0.1",
+    "vue": "2.5.22"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.12.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^5.1.0"
+  }
+}

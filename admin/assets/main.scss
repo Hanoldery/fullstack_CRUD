@@ -1,0 +1,310 @@
+
+$primary: #7B1FA2;    // purple darken-2
+$secondary: #5E35B1;  // deep-purple darken-1
+$accent: #B71C1C;     // red darken-4
+$error: #D50000;      // red accent-4
+$warning: #E65100;    // orange darken-4
+$info: #0D47A1;       // blue darken-4
+$success: #1B5E20;    // green darken-4
+$dark: #212121;
+
+
+
+/* -------- MAIN FRAMEWORK PARAM -------- */
+.pointer {
+    cursor: pointer;
+}
+
+// TODO: change to text-center
+.center-text {
+    text-align: center;
+}
+.left-text {
+    text-align: left;
+}
+.right-text {
+    text-align: right;
+}
+
+.bordered {
+    border-radius: 5px;
+
+    &-primary {
+        border: 1px solid $primary;
+    }
+    &-secondary {
+        border: 1px solid $secondary;
+    }
+}
+
+.scrollbox {
+    overflow: auto;
+    background:
+        /* Shadow covers */
+        linear-gradient(#212121 30%, rgba(255,255,255,0)),
+        linear-gradient(rgba(255,255,255,0), #212121 70%) 0 100%,
+        /* Shadows */
+        radial-gradient(farthest-side at 50% 0, rgba(0,0,0,.8), rgba(0,0,0,0)) 0% -3%,
+        radial-gradient(farthest-side at 50% 100%, rgba(0,0,0,.8), rgba(0,0,0,0)) 0 103%;
+    background-repeat: no-repeat;
+    background-color: #212121;
+    background-size: 100% 40px, 100% 40px, 100% 14px, 100% 14px;
+    /* Opera doesn't support this in the shorthand */
+    background-attachment: local, local, local, local;
+
+    /* scrollbar */
+    &::-webkit-scrollbar {
+        -webkit-appearance: none;
+        width: 6px;
+        height: 6px;
+    }
+    &::-webkit-scrollbar-thumb {
+        border-radius: 4px;
+        background-color: rgba(104, 63, 106, .5);
+        -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+    }
+}
+
+.radius {
+    &-sm {
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    &-md {
+        overflow: hidden;
+        border-radius: 15px;
+    }
+    &-ld {
+        overflow: hidden;
+        border-radius: 25px;
+    }
+}
+
+.scrollable {
+    overflow: auto;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.h {
+    &20 {
+        height: 20vh;
+    }
+    &40 {
+        height: 40vh;
+    }
+}
+
+.no-transform.no-transform.no-transform.no-transform.no-transform {
+    text-transform: none;
+}
+
+
+/* -------  COLORS  ------- */
+
+
+.frontDialog > .theme--dark.v-card {
+    background-image: linear-gradient(0deg,rgba(20,0,50,0.7),rgba(5,0,80,0.3)), url("http://0.0.0.0:3000/img/main/fond_noir.jpg") !important;
+}
+
+.theme--dark.v-btn.v-btn:not(.v-btn--icon):not(.v-btn--flat) {
+    background-color: $secondary;
+    color: white;
+}
+.theme--dark.v-btn.v-btn:not(.v-btn--icon):not(.v-btn--flat).v-btn--outline {
+    background-color: transparent;
+    border: 1px solid #ababab;
+    color: $primary;
+}
+
+.v-btn.v-btn--flat.theme--dark {
+    background-color: transparent;
+    color: $primary;
+}
+
+.theme--dark.v-card.v-card {
+    background: #212121;
+    background-color: #212121;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.2);
+}
+
+.darker {
+    background-color: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    background-clip: border;
+}
+
+.dark {
+    background-color: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    background-clip: border;
+}
+
+.darky {
+    background-color: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    background-clip: border;
+}
+
+.darkSolid {
+    background: #212121;
+    background-color: #212121;
+    border-radius: 5px;
+    background-clip: border;
+}
+
+.v-data-iterator.theme--dark.darky,
+.theme--dark.v-card.v-card.darky,
+.theme--dark.v-list.darky,
+.theme--dark.v-expansion-panel .v-expansion-panel__container {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    background: rgba(0, 0, 0, 0.4) !important;
+}
+
+.theme--dark.v-card.v-card.darker {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    background: rgba(0, 0, 0, 0.8) !important;
+}
+
+.v-select-list .v-list.theme--dark {
+    background-color: #424242 !important;
+}
+
+.v-tabs__container.v-tabs__container--centered a {
+    color: white !important
+}
+
+.flex-min- {
+    &2 {
+        flex: 0 0 2em;
+        &-sm{
+            @media screen and (max-width: 800px) {
+                flex: 0 0 2em;
+            }
+        }
+    }
+    &3 {
+        flex: 0 0 3em;
+        &-sm{
+            @media screen and (max-width: 800px) {
+                flex: 0 0 3em;
+            }
+        }
+    }
+    &4 {
+        flex: 0 0 4em;
+    }
+    &5 {
+        flex: 0 0 5em;
+    }
+    &8 {
+        flex: 0 0 8em !important;
+        &-sm{
+            @media screen and (max-width: 800px) {
+                flex: 0 0 8em !important;
+            }
+        }
+    }
+    &9 {
+        flex: 0 0 9em;
+        &-sm{
+            @media screen and (max-width: 800px) {
+                flex: 0 0 9em;
+            }
+        }
+    }
+}
+
+/* -------- ADMIN PANNEL -------- */
+
+/* Photo hover */
+.hover-trigger .hover-overlay {
+    position: absolute;
+    border-radius: 50%;
+    top: 17px;
+    left: 17px;
+    display: block;
+    width: 0px;
+    height: 0px;
+}
+
+.hover-trigger:hover .hover-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0px;
+    left: 0px;
+    width: 40px;
+    height: 40px;
+    transition: all 0.2s ease;
+}
+
+.hover-trigger .hover-overlay:after {
+    content: '+';
+    display: block;
+    position: absolute;
+    top: 17px;
+    left: 17px;
+    color: white;
+    margin: auto;
+    font-size: 0em;
+    height: 40px;
+}
+
+.hover-trigger:hover .hover-overlay:after {
+    font-size: 1.8em;
+    top: 0%;
+    left: 30%;
+    transition: all 0.1s 0.1s ease;
+}
+
+/* -------- ADJUSTEMENTS -------- */
+.v-input--selection-controls__input {
+    margin-left: 5px;
+}
+
+.v-list .v-input .v-messages.error--text {
+    display: block;
+    margin-top: 5px;
+}
+
+body .application a {
+    text-decoration: none;
+}
+
+.v-toolbar {
+    z-index: 100 !important;
+}
+.v-toolbar__content {
+    height: 11.2vh !important;
+}
+.v-toolbar__extension {
+    height: 9vh !important;
+}
+
+.v-dialog.frontDialog.v-dialog--active.v-dialog--fullscreen {
+    top: 19vh;
+    height: 81vh;
+}
+
+.v-navigation-drawer {
+    z-index: 150 !important;
+}
+
+
+.v-expansion-panel__container.shadowed {
+    border-left: 1px solid rgba(0, 0, 0, .3) !important;
+    border-right: 1px solid rgba(0, 0, 0, .3) !important;
+}
+
+.v-expansion-panel__container.shadowed:first-child {
+    border-top: 1px solid rgba(0, 0, 0, .3) !important;
+}
+
+.v-expansion-panel__container.shadowed:last-child {
+    border-bottom: 1px solid rgba(0, 0, 0, .3) !important;
+}
