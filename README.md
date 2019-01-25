@@ -27,6 +27,7 @@
 ![Capture 1](/admin/static/capture_1.png)
 
 ![Capture 2](/admin/static/capture_2.png)
+### Là j'ai cliqué sur une relation 1-to-N, c'est pas un bug le truc au milieu. À droite ce sont les relations N-to-N qui ouvrent une fenêtre avec des switch.
 
 ## Pour le faire marcher
 - **Variables d'environnement à set**
