@@ -54,4 +54,4 @@ SECRET_KEY
 - **Lancer un serveur postgresql**
 - **Run les commandes classique d'installation pip (dossier server) et npm (dossier admin)**
 - **Lancer les serveurs avec `npm run dev` et `python server.py`**
-- **M'appeler parce que ça marche pas ou que vous avez la flemme de faire toutes ces étapes parce que c'est pas vmt fait pour être un framework ce truc 😉 **
+- **M'appeler parce que ça marche pas ou que vous avez la flemme de faire toutes ces étapes parce que c'est pas vmt fait pour être un framework ce truc** 😉 
