@@ -23,7 +23,7 @@ def print_response(response):
 
 def subscribe_mail(user):
     mail = Mail()
-    mail.from_email = Email("gerbaudp@gmail.com", "Myself")
+    mail.from_email = Email("email@email.com", "Myself")
     if (user.confirmed):
         mail.subject = "Welcome to Hans Zimmer's worlds !"
         mail.template_id = "ADD_TEMPLATE_ID"
