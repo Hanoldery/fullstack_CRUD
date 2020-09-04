@@ -20,7 +20,7 @@
     "@nuxtjs/vuetify": "^0.5.1",
     "howler": "^2.0.15",
     "lodash": "^4.17.11",
-    "node-sass": "^4.9.3",
+    "node-sass": "^4.13.1",
     "nuxt": "^2.3.4",
     "sass-loader": "^7.1.0",
     "sockjs": "^0.3.19",
