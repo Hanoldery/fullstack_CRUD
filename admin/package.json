@@ -19,7 +19,7 @@
     "@nuxtjs/proxy": "^1.2.4",
     "@nuxtjs/vuetify": "^0.5.1",
     "howler": "^2.0.15",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "node-sass": "^4.9.3",
     "nuxt": "^2.3.4",
     "sass-loader": "^7.1.0",
